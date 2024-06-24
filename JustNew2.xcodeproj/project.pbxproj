@@ -14,6 +14,8 @@
 		7C7AC5922C1487BD001F19B8 /* JustNew2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C7AC5902C1487BD001F19B8 /* JustNew2.xcdatamodeld */; };
 		7C7AC5942C1487C0001F19B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7AC5932C1487C0001F19B8 /* Assets.xcassets */; };
 		7C7AC5972C1487C0001F19B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7AC5952C1487C0001F19B8 /* LaunchScreen.storyboard */; };
+		7CE5DBAD2C2872B900CE1E02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5DBAC2C2872B900CE1E02 /* MainViewController.swift */; };
+		7CE5DBB42C2876A500CE1E02 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5DBB32C2876A500CE1E02 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7C7AC5932C1487C0001F19B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C7AC5962C1487C0001F19B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C7AC5982C1487C1001F19B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE5DBAC2C2872B900CE1E02 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7CE5DBB32C2876A500CE1E02 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				7C7AC5872C1487BD001F19B8 /* AppDelegate.swift */,
 				7C7AC5892C1487BD001F19B8 /* SceneDelegate.swift */,
+				7CE5DBB22C28768000CE1E02 /* Cells */,
+				7CE5DBAB2C2872A200CE1E02 /* Controllers */,
 				7C7AC58B2C1487BD001F19B8 /* ViewController.swift */,
 				7C7AC58D2C1487BD001F19B8 /* Main.storyboard */,
 				7C7AC5932C1487C0001F19B8 /* Assets.xcassets */,
@@ -68,6 +74,22 @@
 				7C7AC5902C1487BD001F19B8 /* JustNew2.xcdatamodeld */,
 			);
 			path = JustNew2;
+			sourceTree = "<group>";
+		};
+		7CE5DBAB2C2872A200CE1E02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5DBAC2C2872B900CE1E02 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7CE5DBB22C28768000CE1E02 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5DBB32C2876A500CE1E02 /* MainTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +167,8 @@
 				7C7AC5882C1487BD001F19B8 /* AppDelegate.swift in Sources */,
 				7C7AC58A2C1487BD001F19B8 /* SceneDelegate.swift in Sources */,
 				7C7AC5922C1487BD001F19B8 /* JustNew2.xcdatamodeld in Sources */,
+				7CE5DBB42C2876A500CE1E02 /* MainTableViewCell.swift in Sources */,
+				7CE5DBAD2C2872B900CE1E02 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
